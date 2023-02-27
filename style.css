@@ -1,0 +1,24 @@
+.tree{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    grid-gap: 10px;
+}
+
+.tree__leaf{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #cd020e;
+    color: white;
+}
+
+.tree__subtree-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.heading {
+    color: #cd020e;
+}
